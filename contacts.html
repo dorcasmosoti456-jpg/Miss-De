@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <nav class="page-nav" aria-label="Main navigation">
+            <a class="nav-btn" href="index.html">Home</a>
+            <a class="nav-btn" href="experience.html">Personal Experience</a>
+            <a class="nav-btn active" href="contacts.html">Contacts</a>
+            <a class="nav-btn" href="hobbies.html">Hobbies</a>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="content-panel">
+            <div class="intro-banner">
+                <div class="marquee" aria-label="Animated title">
+                    <div class="marquee-text">CONTACT ME</div>
+                </div>
+            </div>
+
+            <p><strong>Phone:</strong> 0718096477</p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:dorcasmosoti456@gmail.com">dorcasmosoti456@gmail.com</a>
+            </p>
+
+            <h3>Contact Form</h3>
+
+            <form method="post" action="#">
+                <label for="name">Enter your Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">E-mail address</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="subject">Message Subject</label>
+                <input id="subject" name="subject" type="text">
+
+                <label for="message">Enter your Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <div class="checkbox-row">
+                    <input type="checkbox" id="copy" name="copy">
+                    <label for="copy">E-mail a copy of this message to your own address.</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; DORCAS MOSOTI
+    </footer>
+</body>
+
+</html>
